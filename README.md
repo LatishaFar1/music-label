@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Music Label 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with React
 
-## Available Scripts
 
-In the project directory, you can run:
+
+
+
+
 
 ### `npm start`
 
@@ -64,7 +66,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
