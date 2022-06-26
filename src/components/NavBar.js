@@ -1,14 +1,28 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
+
 
 function NavBar() {
   return (
-    <div className='navbar' onClick="this.classList.toggle('open')">
+    <div className='navbar'>
          <ul>         
-             <li><a href="/" data-text="Home">Home</a>
-             </li>         
-             <li><a href="/" data-text="About">About</a>
-             </li>        
-             <li><a href="/" data-text="Services">Services</a>
+             <li>
+           
+             <Link to="/">
+             <a href="/" data-text="Home">Home</a>
+            </Link>
+             </li>     
+
+             <li>
+             <Link to="/about">
+             <a href="/about" data-text="About">About</a>
+            </Link>
+             </li>      
+
+             <li>
+             <Link to="/services">
+            <a href="/services" data-text="Services">Services</a>
+             </Link>
              </li>         
           </ul> 
 

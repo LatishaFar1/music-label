@@ -11,11 +11,15 @@
 /* 
 NAVBAR */
 
+
+
 body { display: flex; 
   justify-content: center; 
   align-items: center;
    min-height: 100vh; 
    overflow: hidden; } 
+
+
 ul { 
   position: relative; 
 } 
@@ -25,7 +29,7 @@ ul li {
 ul li a { 
   color: #333; 
   text-decoration: none; 
-  font-size: 3em; 
+  font-size: 45px; 
   padding: 5px 20px; 
   display: inline-flex; 
   font-weight: 700; 
@@ -85,3 +89,23 @@ ul li:hover a {
            background: #ffeaa7; } */
 
 
+
+
+/* ABOUT */
+
+.about-wrapper{
+  width: 1000px;
+  height: 300px;
+  border-color: #C7CCD8;
+  display: flex;
+
+}
+.about{
+  flex-direction: row;
+  align-items: center;
+
+
+ 
+
+  
+}
